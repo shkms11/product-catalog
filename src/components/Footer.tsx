@@ -13,7 +13,7 @@ function Footer() {
                 {/* social medias */}
                 <div>
                     <h1 className="text-lg font-bold mb-4">Connect with us</h1>
-                    <div className="felx space-x-6">
+                    <div className="felx space-x-6 ">
                         <a
                             href="https://facebook.com"
                             aria-label="Facebook"
@@ -45,13 +45,89 @@ function Footer() {
                     </div>
                 </div>
                 <div>
-                    <h1 className="text-lg font-bold">trending now</h1>
+                    {/* trending now section */}
+                    <div>
+                        <h1 className="text-lg font-bold mb-4">Trending Now</h1>
+                        <ul className="space-y-2">
+                            <li>
+                                <a href="" className="hover:underline">
+                                    New Arrivals
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" className="hover:underline">
+                                    Best Sellers
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" className="hover:underline">
+                                    Sale Items
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" className="hover:underline">
+                                    Featured Products
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="flex flex-row justify-between">
-                    <h1 className="text-lg font-bold">about us</h1>
-                </div>
+                {/* about us */}
                 <div>
-                    <h1 className="text-lg font-bold">help</h1>
+                    <h1 className="text-lg font-bold mb-4">About Us</h1>
+                    <ul className="space-y-2">
+                        <li>
+                            <a href="" className="hover:underline">
+                                Our Story
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                Careers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                Blog
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                Press
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                {/*help */}
+                <div>
+                    <h1 className="text-lg font-bold mb-4">Help</h1>
+                    <ul className="space-y-2">
+                        <li>
+                            <a href="" className="hover:underline">
+                                Customer Support
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                Shipping & Delivery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                Returns & Refunds
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className="hover:underline">
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>
