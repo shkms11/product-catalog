@@ -3,7 +3,7 @@ import Product from "./Product";
 function ProductList() {
     const items = Array.from({ length: 10 });
     return (
-        <div className="p-4 mr-20 ml-20">
+        <div className="p-4 lg:mr-20 lg:ml-20">
             <div className="flex flex-wrap">
                 {items.map((_, index) => (
                     <div
