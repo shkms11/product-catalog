@@ -1,14 +1,15 @@
 // a single product is shown using this
 // w/o hover
 import "./Product.css";
+import productPlaceholder from "../assets/img/product-placeholder.jpg";
 function Product() {
     return (
-        <div className="p-4 bg-white ">
+        <div className="p-2 bg-white ">
             <div>
                 <img
-                    src=""
+                    src={productPlaceholder}
                     alt="product image"
-                    className="w-full h-auto mb-3"
+                    className="w-full h-full mb-3"
                 />
             </div>
             <div className="mb-2">
